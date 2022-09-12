@@ -13,4 +13,4 @@
 * React Hook Form
 * Validações de formulário com Zod
 
-<p> Link para Deploy: https://react-coffee-delivery-two.vercel.app/</p>
+<p> Link para acesso ao Deploy: https://react-coffee-delivery-two.vercel.app/</p>
