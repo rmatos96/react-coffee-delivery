@@ -1,0 +1,159 @@
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 544px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 104px;
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        position: absolute;
+        width: 588px;
+        height: 192px;
+        left: calc(50% - 588px/2 - 266px);
+        top: calc(50% - 192px/2 - 82px);
+
+        h1 {
+            width: 588px;
+            height: 124px;
+
+            /* Title/Title XL */
+
+            font-family: 'Baloo 2';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 130%;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+
+            color: var(--subtitle);
+        }
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin-top: 1rem;
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            margin-top: 1rem;
+        }
+
+
+        .shopping-cart {
+            width: 32px;
+            height: 32px;
+            padding: 8px;
+            gap: 8px;
+
+            border-radius: 1000px;
+
+            background: var(--yellow-dark);
+            color: var(--white);
+        }
+
+        .package {
+            width: 32px;
+            height: 32px;
+            padding: 8px;
+            gap: 8px;
+
+            border-radius: 1000px;
+
+            background: var(--base-text);
+            color: var(--white);
+        }
+
+        .timer {
+            width: 32px;
+            height: 32px;
+            padding: 8px;
+            gap: 8px;
+
+            border-radius: 1000px;
+
+            background: var(--yellow);
+            color: var(--white);
+        }
+
+        .coffe {
+            width: 32px;
+            height: 32px;
+            padding: 8px;
+            gap: 8px;
+
+            border-radius: 1000px;
+
+            background: var(--purple);
+            color: var(--white);
+        }
+    }
+
+    .img {
+        position: absolute;
+        width: 476px;
+        height: 360px;
+        left: calc(50% - 476px/2 + 322px);
+        top: calc(50% - 360px/2);
+    }
+}
+
+.products-container {
+    position: absolute;
+    height: 1645px;
+    left: 0px;
+    right: 0px;
+    top: 648px;
+
+    h2 {
+        position: absolute;
+        left: calc(50% - 193px/2 - 463.5px);
+        top: 32px;
+        /* Title/Title L */
+
+        font-family: 'Baloo 2';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 130%;
+        /* identical to box height, or 42px */
+
+        display: flex;
+        align-items: center;
+
+        /* Base/Subtitle */
+
+        color: #403937;
+    }
+
+    .products-Wrapper {
+        position: absolute;
+        width: 1120px;
+        height: 1360px;
+        left: calc(50% - 1120px/2);
+        top: 128px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 40px 32px;
+        grid-auto-flow: row;
+    }
+}
