@@ -11,7 +11,7 @@ export const Header = () => {
     <div>
       <nav>
         <NavLink to={'/'}>
-          <img src="src\assets\Logo.svg" alt="" />
+          <img src="https://uploaddeimagens.com.br/images/004/020/003/original/Logo.png?1663024311" alt="" />
         </NavLink>
         <div className="LocationAndCheckout">
           <div className="Location">
