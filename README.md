@@ -1,6 +1,6 @@
 # react-coffee-delivery
 
-<h1> Projeto feito em react de um delivery de cafés. </h1>
+<h1> Projeto feito em react de um delivery de café. </h1>
 
 <h2> O que foi utilizado nesse projeto? </h2>
 
