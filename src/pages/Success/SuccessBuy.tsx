@@ -50,7 +50,7 @@ export const SuccessBuy = () => {
           </p>
         </div>
       </div>
-      <img className="bodyImage" src="src\assets\Illustration.svg" alt="" />
+      <img className="bodyImage" src="https://uploaddeimagens.com.br/images/004/020/015/original/Illustration-removebg-preview.png?1663024688" alt="" />
     </>
   )
 }
