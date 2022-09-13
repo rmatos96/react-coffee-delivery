@@ -57,7 +57,7 @@ export function CoffeContextProvider({ children }: CoffeContextProviderProps) {
         const newCart = produce(cartItens, (draft) => {
             const coffeAlreadyExistsInCart = cartItens.findIndex((cartItem) => cartItem.productName === cartProductName)
 
-            if (coffeAlreadyExistsInCart <= 0) {
+            if (coffeAlreadyExistsInCart >= 0) {
                 const item = draft[coffeAlreadyExistsInCart]
                 draft[coffeAlreadyExistsInCart].quantity = type === "increase" ? item.quantity + 1 : item.quantity - 1
             }
